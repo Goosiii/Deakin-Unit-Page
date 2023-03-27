@@ -1,0 +1,54 @@
+warning: LF will be replaced by CRLF in index-1.html.
+The file will have its original line endings in your working directory
+[1mdiff --git a/index-1.html b/index-1.html[m
+[1mindex aa9f5ca..4995ecb 100644[m
+[1m--- a/index-1.html[m
+[1m+++ b/index-1.html[m
+[36m@@ -4,4 +4,24 @@[m
+ [m
+ <div > [m
+ 	<img src="logo.svg" alt="Deakin" width="200" height="210" >[m
+[31m-</div>[m
+\ No newline at end of file[m
+[32m+[m[32m</div>[m
+[32m+[m
+[32m+[m[32m<h2> Unit details</h2>[m[41m [m
+[32m+[m[32m<table style="width:100%">[m[41m [m
+[32m+[m[32m <tr>[m[41m [m
+[32m+[m[32m  <td>Year: </td>[m[41m [m
+[32m+[m[32m  <td>2023 unit information</td>[m[41m [m
+[32m+[m[32m </tr>[m[41m [m
+[32m+[m[32m <tr>[m[41m [m
+[32m+[m[32m  <td>Enrolment modes:</td>[m[41m [m
+[32m+[m[32m  <td>Trimester 1: Burwood (Melbourne), Geelong, Cloud (online)</td>[m[41m [m
+[32m+[m[32m </tr>[m[41m [m
+[32m+[m[32m <tr>[m[41m [m
+[32m+[m[32m  <td>Credit point(s):</td>[m[41m [m
+[32m+[m[32m  <td>1</td>[m[41m [m
+[32m+[m[32m </tr>[m[41m [m
+[32m+[m[32m <tr>[m[41m [m
+[32m+[m[32m  <td> Unit Chair:</td>[m[41m [m
+[32m+[m[32m  <td> Trimester 1: Azadeh Ghari Neiat</td>[m[41m [m
+[32m+[m[32m </tr>[m[41m [m
+[32m+[m[32m</table>[m
+\ No newline at end of file[m
+[1mdiff --git a/main.css b/main.css[m
+[1mindex 996f4db..d42e0b6 100644[m
+[1m--- a/main.css[m
+[1m+++ b/main.css[m
+[36m@@ -13,6 +13,15 @@[m [mp {[m
+   font-size: 14px;[m
+   font-family: Arial[m
+ }[m
+[32m+[m[32mth, td {[m
+[32m+[m[32m padding: 8px;[m[41m [m
+[32m+[m[32m text-align: left;[m[41m [m
+[32m+[m[32m border-bottom: 1px solid #ddd;[m[41m [m
+[32m+[m[32m font-family: Arial[m[41m [m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32mtr:nth-child(odd) {background-color: #f2f2f2;}[m
+ [m
+ div {[m
+   background-color: darkcyan;[m
